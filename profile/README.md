@@ -21,7 +21,7 @@ Not another agent. Not another tool. The AIOS is the **prompt, context, intent a
 
 ### Who this is for
 
-Builders, founders, and executives who already think clearly. AI doesn't create clarity — it amplifies it. If you don't know what to amplify, AI just multiplies confusion. We assume you've done the work.
+For anyone navigating AI-overwhelming days — builders, founders, executives. AI alone multiplies confusion. The AIOS gives you the structure (prompt, context, intent, collaboration) where clarity emerges, then gets amplified.
 
 The AIOS is completely portable — plug Claude, Gemini, or your best LLM. If you want to make the most of AI without losing what makes you irreplaceable — and without IP/PII risk — this is for you.
 
