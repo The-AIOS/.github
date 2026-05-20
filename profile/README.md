@@ -24,7 +24,7 @@ It is not here to replace anyone but to compound everyone, leveraging as many sp
 - **Trust earned over time.** Autonomy compounds with judgment — like a good A-Player on a real team.
 - **Completely portable** — plug Claude (Recommended), Gemini, or your best LLM. 
 
-### What's inside
+## What's inside
 
 - `aios` — _everything you need to get started_
 - *additional repos surface as the migration lands*
