@@ -4,7 +4,7 @@
 
 The context-engineering primitive that turns transactional AI into compounding leverage. Not another agent. Not another tool. The **layer** your agents run on.
 
-Built by [@chuycepeda](https://github.com/chuycepeda) and the team running it in production — on personal vaults, ventures, and the work that ships.
+Used daily by senior executives, founders, and operators — on personal vaults, ventures, and the work that ships.
 
 ### Three principles, all load-bearing
 
