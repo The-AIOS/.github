@@ -12,7 +12,7 @@ If you want to make the most of AI without losing what makes you irreplaceable �
 
 Used daily by senior executives, founders, builders, and operators — on personal vaults, ventures, and the work that ships.
 
-The AIOS turns AI into a team — a legal you, an accountant you, a marketing you. You can run them all and be their orchestrator, or let one AI co-worker run the rest as your chief of staff who never sleeps and absorbs the coordination overhead with the best agentic culture. 
+The AIOS turns AI into a team — a legal you, an accountant you, a marketing you, a software engineer you. You can run them all and be their orchestrator, or let one AI co-worker run the rest as your chief of staff who never sleeps and absorbs the coordination overhead with the best agentic culture. 
 
 The AIOS exists to make you and your team exponential, to give you the bandwidth you need and move at the speed the era demands. It is not here to replace anyone but to compound everyone, leveraging as many specialized co-workers as you need.
 
