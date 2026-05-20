@@ -2,7 +2,7 @@
 
 Everyone is building an AIOS. We built The AIOS.
 
-Used daily by senior executives, founders, and operators — on personal vaults, ventures, and the work that ships.
+Used daily by senior executives, founders, builders, and operators — on personal vaults, ventures, and the work that ships.
 
 The AIOS exists to make A-Players exponential, not to replace anyone, turning transactional AI into compounding leverage.
 
@@ -21,8 +21,12 @@ Not another agent. Not another tool. The AIOS is the **prompt, context, intent a
 
 ### Who this is for
 
-Executives and builders understanding that this is the time to get more bandwidth and ampify individual and organizational capabilities not to be disrupted by AI itself. Also, The AIOS is completely portable, you can plug claude, gemini or your best LLM. So if you've found yourself anxoius to make the most of AI without being disrupted and at the same time worried about IP/PII risks, this is for you.
+Builders, founders, and executives who already think clearly. AI doesn't create clarity — it amplifies it. If you don't know what to amplify, AI just multiplies confusion. We assume you've done the work.
+
+The AIOS is completely portable — plug Claude, Gemini, or your best LLM. If you want to make the most of AI without losing what makes you irreplaceable — and without IP/PII risk — this is for you.
 
 ---
 
-*The AIOS philosophy is not about replacing humans, but about amplifying them. – Not zero people. Compounded people.*
+*Amplify yourself and your team — with AI co-workers.*
+
+*Not zero people. Compounded people.*
