@@ -33,6 +33,23 @@ If your contribution belongs in the bundle (general-purpose, well-tested, docume
 4. **Test against a real vault.** The framework is built for daily use. If your contribution can't be validated against an actual operator session, it's probably premature.
 5. **No teammate names in commits or CHANGELOG.** Reference by `(#PR)` number. Co-Authored-By trailers are fine; narrative names are not.
 
+## Personal hygiene
+
+The framework is operator-agnostic. Your personal vault and the framework are *intentionally* separate repos so your private data never leaks into the public bundle. **Keep them separate when you contribute.**
+
+Things that must never appear in a framework PR:
+
+- **Personal vault content.** Anything under `vault/00 - notes/projects/`, `vault/00 - notes/context/declared/` (other than templates), `vault/00 - notes/context/observed/`, `vault/01 - calendar/`, `vault/00 - notes/logs/`. These are *your* operator state. The framework's `vault/` only ships folder scaffolding (`.gitkeep`) and shared Obsidian config (`.obsidian/`).
+- **Real credentials.** OAuth tokens, API keys, session cookies, Playwright auth files. Only `*.template` files ship. Real credentials are operator-specific and stay gitignored.
+- **External IDs.** Slack channel IDs (`D...`/`C...`), Monday/Linear board IDs, internal Drive URLs, Sovra-specific paths. These live in operator config (`USER.md`, env vars, MCP runtime), never in framework files.
+- **Teammate names** in commit subjects, bodies, or CHANGELOG narrative. History reads as gossip after 6 months. Reference by `(#PR)` number. Co-Authored-By trailers are fine — they're structural metadata, not narrative.
+- **Real personal data in `USER.md` or `INTENT.md`.** Both ship as templates with `EXAMPLE ONLY` markers. Operators fill them in *their own private vault*, not in framework PRs.
+- **Infra→personal wikilinks.** `[[ai-os]]`, `[[chuy-finances]]`, `[[advisory-jane-doe]]` — these wikilinks resolve in *your* vault, but won't resolve in any other operator's vault. Infra files (`commands/`, `agents/`, `templates/`, etc.) must use generic placeholders.
+
+The CI runs a `personal-content` job on every PR that catches the unambiguous violations (vault content, real OAuth files, template drift, infra wikilinks). The PR template has a self-check list for the softer cases. **The CI fails closed — if your PR adds personal content, the check turns red.**
+
+If you accidentally pushed personal content: `git reset` to before the commit, scrub the file, re-commit. Don't try to delete in a follow-up commit — secrets persist in git history. Rotate any leaked credentials immediately.
+
 ## Commit format
 
 [Conventional Commits](https://www.conventionalcommits.org): `<type>(<scope>): <description>`
