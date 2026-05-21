@@ -16,6 +16,14 @@ The AIOS turns AI into a team — a legal you, an accountant you, a marketing yo
 
 The AIOS exists to make you and your team exponential, to give you the bandwidth you need and move at the speed the era demands. It is not here to replace anyone but to compound everyone, leveraging as many specialized co-workers as you need.
 
+## Three progressive stages, all compounding
+
+Each stage builds on the last. Each next stage returns ~10× the leverage.
+
+- **Automate — *Do quicker*.** Daily plans, drafts, syntheses — 30 minutes becomes 30 seconds. *Week 1.*
+- **Amplify — *Do more*.** Agents draft proposals, write in your voice, research while you sleep — you stop being the bottleneck. *Month 1.*
+- **Agency — *Do autonomously*.** AI co-workers act on your behalf with judgment, within trust boundaries you've defined. *Quarter 1, deepening across years.*
+
 ## Four principles, all load-bearing
 
 - **Amplify intelligence, not artificial.** Human + AI beats human alone or AI alone.
