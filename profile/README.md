@@ -4,7 +4,7 @@ Everyone is building an AIOS. We built **The AIOS**.
 
 ## Who this is for
 
-For anyone navigating AI-overwhelming days — senior executives, builders, founders, operators. AI alone multiplies confusion. The AIOS gives you the structure (prompt, context, intent, collaboration) where clarity emerges, then allows you to amplify yourself and your team with AI co-workers.
+For anyone navigating AI-overwhelming days — senior executives, builders, founders, operators. AI alone multiplies confusion. The AIOS gives you the structure (prompt, context, intent, collaboration, second brain) where clarity emerges, then allows you to amplify yourself and your team with AI co-workers.
 
 If you want to make the most of AI without losing what makes you irreplaceable — and without IP/PII risk — **this is for you**.
 
@@ -20,9 +20,9 @@ The AIOS exists to make you and your team exponential, to give you the bandwidth
 
 Each stage builds on the last. Each next stage returns ~10× the leverage.
 
-- **Automate — *Do quicker*.** Daily plans, drafts, syntheses — 30 minutes becomes 30 seconds. *Week 1.*
-- **Amplify — *Do more*.** Agents draft proposals, write in your voice, research while you sleep — you stop being the bottleneck. *Month 1.*
-- **Agency — *Do autonomously*.** AI co-workers act on your behalf with judgment, within trust boundaries you've defined. *Quarter 1, deepening across years.*
+- **Automate — *Gain speed, do faster*.** Daily plans, drafts, syntheses — 30 minutes becomes 30 seconds. *Week 1.*
+- **Amplify — *Gain bandwidth, do more*.** Agents draft proposals, write in your voice, research while you sleep — you stop being the bottleneck. *Month 1.*
+- **Agency — *Gain autonomy, do agentic*.** AI co-workers act on your behalf with judgment, within trust boundaries you've defined. *Quarter 1, deepening across years.*
 
 ## Four principles, all load-bearing
 
