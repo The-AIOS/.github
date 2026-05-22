@@ -20,9 +20,9 @@ The AIOS exists to make you and your team exponential, to give you the bandwidth
 
 Each stage builds on the last. Each next stage returns ~10× the leverage.
 
-- **Automate — *Gain speed, do faster*.** Daily plans, drafts, syntheses — 30 minutes becomes 30 seconds. *Week 1.*
-- **Amplify — *Gain bandwidth, do more*.** Agents draft proposals, write in your voice, research while you sleep — you stop being the bottleneck. *Month 1.*
-- **Agency — *Gain autonomy, do agentic*.** AI co-workers act on your behalf with judgment, within trust boundaries you've defined. *Quarter 1, deepening across years.*
+- **Week 1: Automate — *Gain speed, do faster*.** Daily plans, drafts, syntheses — 30 minutes becomes 30 seconds.
+- **Week 2: Amplify — *Gain bandwidth, do more*.** Agents draft proposals, write in your voice, research while you sleep — you stop being the bottleneck.
+- **Month 1: Agency — *Gain autonomy, do agentic*.** AI co-workers act on your behalf with judgment, within trust boundaries you've defined.
 
 ## Four principles, all load-bearing
 
@@ -33,8 +33,13 @@ Each stage builds on the last. Each next stage returns ~10× the leverage.
 
 ## What's inside
 
-- `aios` — _everything you need to get started_
-- *additional repos surface as the migration lands*
+The org ships **three repos**, each with a distinct role:
+
+- **[`aios`](https://github.com/The-AIOS/aios)** — the framework. Everything you need to get started: 24 slash commands, task agents across 6 bundles, skills across 4 source folders (aios · anthropic · superpowers · custom), 10 bundled MCPs, hooks for pipeline + statusLine + UserPromptSubmit, templates, plus the 7 framework docs (README · SETUP · START-HERE · CLAUDE · CHEATSHEET · TOOLS · FORTRESS). Apache-2.0 path-agnostic install at `~/aios/`. Start here.
+- **[`company-template`](https://github.com/The-AIOS/company-template)** — the venture-context scaffold. Fork it via `/aios:company --create` to give your team a shared infrastructure layer (10 canonical context files + 6 optional infra folders for company-distributed agents/plugins/hooks/MCPs/skills/templates). One mount, one prompt, every teammate's Claude session inherits the full context layer.
+- **[`.github`](https://github.com/The-AIOS/.github)** — org-level community health files that inherit as defaults to every repo under The-AIOS: [CONTRIBUTING](https://github.com/The-AIOS/.github/blob/main/CONTRIBUTING.md) (the `custom/` rule, State→Ask→Act CHANGELOG format, GPL-2.0-or-later inbound terms, anti-personal-content discipline), [SECURITY](https://github.com/The-AIOS/.github/blob/main/SECURITY.md) (vulnerability reporting), structured issue templates (bug + feature), PR template. The contributor surface, anonymized + operator-agnostic by design.
+
+CI on the framework (`aios`) runs a 6-job validation gate on every PR — repo structure · plugin manifests · YAML frontmatter · migration drift · personalization guard · credentials guard — so personal operator content never crosses into the public bundle.
 
 
 
