@@ -4,7 +4,9 @@ Everyone is building an AIOS. We built **The AIOS**.
 
 ## Who this is for
 
-For anyone navigating AI-overwhelming days — senior executives, builders, founders, operators. AI alone multiplies confusion. The AIOS gives you the structure (prompt, context, intent, collaboration, second brain) where clarity emerges, then allows you to amplify yourself and your team with AI co-workers.
+For anyone navigating AI-overwhelming days — senior executives, builders, founders, operators. AI alone multiplies confusion. The AIOS gives you the structure where clarity emerges, then allows you to amplify yourself and your team with AI co-workers.
+
+The journey feels like: Prompt → Context → Intent → Collaboration → Second Brain → AI Company. AI moves from tool to assistant to your full team. Human moves from prompter to first-brain, to orchestrator.
 
 If you want to make the most of AI without losing what makes you irreplaceable — and without IP/PII risk — **this is for you**.
 
