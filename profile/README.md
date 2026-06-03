@@ -42,7 +42,7 @@ The org ships **four repos**, each with a distinct role:
 - **[`company-template`](https://github.com/The-AIOS/company-template)** — the venture-context scaffold. Fork it via `/aios:company --create` to give your team a shared infrastructure layer (13 canonical context files + 3 optional addons, plus 6 optional infra folders for company-distributed agents/plugins/hooks/MCPs/skills/templates). One mount, one prompt, every teammate's Claude session inherits the full context layer.
 - **[`.github`](https://github.com/The-AIOS/.github)** — org-level community health files that inherit as defaults to every repo under The-AIOS: [CONTRIBUTING](https://github.com/The-AIOS/.github/blob/main/CONTRIBUTING.md) (the `custom/` rule, State→Ask→Act CHANGELOG format, GPL-2.0-or-later inbound terms, anti-personal-content discipline), [SECURITY](https://github.com/The-AIOS/.github/blob/main/SECURITY.md) (vulnerability reporting), structured issue templates (bug + feature), PR template. The contributor surface, anonymized + operator-agnostic by design.
 
-CI on the framework (`aios`) runs a 6-job validation gate on every PR — repo structure · plugin manifests · YAML frontmatter · migration drift · personalization guard · credentials guard — so personal operator content never crosses into the public bundle.
+CI on the framework (`aios`) runs a 7-job validation gate on every PR — repo structure · plugin manifests · YAML frontmatter · capability counts · migration drift · personalization guard · credentials guard — so personal operator content never crosses into the public bundle.
 
 
 
