@@ -4,7 +4,7 @@
 
 Everyone is building an AIOS. We built **The AIOS**.
 
-**[the-aios.com](https://the-aios.com)** — the live site (EN · ES · PT) · **[Operating Manual](https://the-aios.com/manual)** — read it online or take the PDF (17 sections, first principles → 24/7 containment).
+**[the-aios.com](https://the-aios.com)** — the live site (EN · ES · PT) · **[Operating Manual](https://the-aios.com/manual)** — read it online or take the PDF: first principles through to 24/7 containment.
 
 ## Who this is for
 
@@ -39,19 +39,27 @@ Each stage builds on the last. Each next stage returns ~10× the leverage.
 
 ## What's inside
 
-The org ships **six repos**, each with a distinct role:
+Three things you install, two things you read, and one that quietly sets the rules.
 
-- **[`aios`](https://github.com/The-AIOS/aios)** — the framework. Everything you need to get started: 24 slash commands, 31 task agents across 6 bundles, 45 skills across 4 source folders (aios · anthropic · superpowers · custom), 10 bundled MCPs, hooks for pipeline + statusLine + UserPromptSubmit, templates, plus the 7 framework docs (README · SETUP · START-HERE · CLAUDE · CHEATSHEET · TOOLS · FORTRESS). GPL-2.0-or-later, path-agnostic install at `~/aios/`. Start here.
-- **[`aios-glass`](https://github.com/The-AIOS/aios-glass)** — the graphical control plane. A friendly *glass layer over the framework* for [Google Antigravity](https://antigravity.google) (or any VS Code-compatible editor): run `/aios:*` rituals as buttons, browse and `spawn` agents, manage `/company` + `/collaborate` spaces, navigate your vault — the terminal becomes optional, not required. *Glass, not engine* — it surfaces and triggers what the framework already does, never reimplements it. Installable from [Open VSX](https://open-vsx.org/extension/the-aios/aios-glass); pairs with [Foam](https://github.com/foambubble/foam) for `[[wikilink]]` vault navigation. GPL-2.0-or-later.
-- **[`aios-app`](https://github.com/The-AIOS/aios-app)** — the desktop app, for people who never open an editor. The same control plane as a standalone macOS application: Home, the live panel, real `claude` sessions in real terminals, a vault explorer with git markers, markdown/HTML/PDF viewers, four layouts — and a **four-step setup** that takes a machine with nothing installed to a working AIOS without the operator touching a shell. *Glass, not engine* holds here too: it surfaces and triggers, never reimplements, and every command it runs is visible in a terminal you can read. Distributed as a **Developer-ID-signed, notarized `.dmg`** from [Releases](https://github.com/The-AIOS/aios-app/releases/latest) (Apple Silicon), with signature-verified auto-update — not the Mac App Store, because the app spawns processes and reads your vault, which App Sandbox forbids. App-only is a first-class topology, not a lesser one: no IDE required. GPL-2.0-or-later.
-- **[`company-template`](https://github.com/The-AIOS/company-template)** — the venture-context scaffold. Fork it via `/aios:company --create` to give your team a shared infrastructure layer (13 canonical context files + 3 optional addons, plus 6 optional infra folders for company-distributed agents/plugins/hooks/MCPs/skills/templates). One mount, one prompt, every teammate's Claude session inherits the full context layer.
-- **[`site`](https://github.com/The-AIOS/site)** — the public site, **[the-aios.com](https://the-aios.com)**. The web-native sibling of the Operating Manual: a 13-section walk through the framework (what it is → journey → architecture → toolbox → skills → rhythm → projects → glass → workspaces → trust → containment → manual → get started), trilingual (EN · ES · PT), in the product brand, with the manual embedded at [`/manual`](https://the-aios.com/manual). Next.js + Tailwind, static export. MIT.
-- **[`org`](https://github.com/The-AIOS/org)** — the commons + marketplace surface, **[the-aios.org](https://the-aios.org)**. The `.org` counterpart to the `.com`: the root is the home of the open framework, its license, and its name; [`/plugins`](https://the-aios.org/plugins) is the marketplace where the ecosystem's plugins, credentials, and extensions live (vendors and coaches set up shop). Branded placeholders today — static, no build step.
-- **[`.github`](https://github.com/The-AIOS/.github)** — org-level community health files that inherit as defaults to every repo under The-AIOS: [CONTRIBUTING](https://github.com/The-AIOS/.github/blob/main/CONTRIBUTING.md) (the `custom/` rule, State→Ask→Act CHANGELOG format, GPL-2.0-or-later inbound terms, anti-personal-content discipline), [SECURITY](https://github.com/The-AIOS/.github/blob/main/SECURITY.md) (vulnerability reporting), structured issue templates (bug + feature), PR template. The contributor surface, anonymized + operator-agnostic by design.
+### The framework, and the two ways to use it
 
-CI on the framework (`aios`) runs a 7-job validation gate on every PR — repo structure · plugin manifests · YAML frontmatter · capability counts · migration drift · personalization guard · credentials guard — so personal operator content never crosses into the public bundle.
+- **[`aios`](https://github.com/The-AIOS/aios)** — **the framework, and the place to start.** A vault plus the machinery around it: 20+ slash commands for the daily rituals, 30+ task agents across six bundles, 40+ skills, bundled MCP servers, and hooks that give every session a real clock and a live context readout. Path-agnostic install at `~/aios/`. GPL-2.0-or-later.
+  - **[`company-template`](https://github.com/The-AIOS/company-template)** — the venture-context scaffold, forked via `/aios:company --create`. One mount, and every teammate's Claude session inherits the same context layer: who the company is, what it sells, how it decides. Optionally carries company-specific agents, plugins, hooks, MCPs, skills and templates.
+- **[`aios-glass`](https://github.com/The-AIOS/aios-glass)** — **for people who work in an editor.** A glass layer over the framework for [Google Antigravity](https://antigravity.google) or any VS Code-compatible editor: rituals as buttons, agents you can browse and `spawn`, `/company` and `/collaborate` spaces, vault navigation. The terminal becomes optional rather than required. On [Open VSX](https://open-vsx.org/extension/the-aios/aios-glass); pairs with [Foam](https://github.com/foambubble/foam) for `[[wikilink]]` navigation. GPL-2.0-or-later.
+- **[`aios-app`](https://github.com/The-AIOS/aios-app)** — **for people who never will.** The same control plane as a standalone Mac app: Home, a live panel, real `claude` sessions in real terminals, a vault explorer with git markers, viewers for markdown/HTML/PDF — and a four-step setup that takes a machine with nothing installed to a working AIOS without opening a shell. A Developer-ID-signed, notarized **[`.dmg`](https://github.com/The-AIOS/aios-app/releases/latest)** with signature-verified auto-update. GPL-2.0-or-later.
 
+*Glass, not engine* holds across both surfaces: they run the real `claude` CLI against your real vault, surfacing and triggering what the framework already does — never reimplementing it. And app-only is a first-class topology, not a lesser one: no editor required.
 
+### On the web
+
+- **[`site`](https://github.com/The-AIOS/site)** — **[the-aios.com](https://the-aios.com)**, the web-native sibling of the Operating Manual. A guided walk from what it is through architecture, toolbox, rhythm, trust and containment — trilingual (EN · ES · PT), with the manual embedded at [`/manual`](https://the-aios.com/manual). Next.js + Tailwind, static export. MIT.
+- **[`org`](https://github.com/The-AIOS/org)** — **[the-aios.org](https://the-aios.org)**, the commons and marketplace surface. The root is the home of the open framework, its license and its name; [`/plugins`](https://the-aios.org/plugins) is where the ecosystem's plugins, credentials and extensions live, and where vendors and coaches set up shop. Branded placeholders today.
+
+### And one that sets the rules
+
+- **[`.github`](https://github.com/The-AIOS/.github)** — the org-level community health files, which **inherit as defaults to every repo here**: [CONTRIBUTING](https://github.com/The-AIOS/.github/blob/main/CONTRIBUTING.md) (the `custom/` rule, commit and CHANGELOG format, GPL-2.0-or-later inbound terms, the anti-personal-content discipline), [SECURITY](https://github.com/The-AIOS/.github/blob/main/SECURITY.md), issue and PR templates. Anonymized and operator-agnostic by design — a repo overrides these only when it has something genuinely specific to add.
+
+CI on the framework runs a multi-job validation gate on every PR — repo structure · plugin manifests · YAML frontmatter · capability counts · migration drift · personalization hygiene — so a broken contribution fails before review rather than after merge.
 
 ---
 
