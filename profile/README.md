@@ -1,8 +1,10 @@
 # The AIOS
 
-**Giving everyone a team of agents.** AI as a team, not a tool.
+**Grow your business, grow your life, and the human who holds both.**
 
-Everyone is building an AIOS. We built **The AIOS**.
+*Own it. Prove it. Grow with it.*
+
+Everyone is building an AIOS. We built **The AIOS**: a team of agents that works for you, with everyone, within your rules.
 
 **[the-aios.com](https://the-aios.com)** — the live site (EN · ES · PT) · **[Operating Manual](https://the-aios.com/manual)** — read it online or take the PDF: first principles through to 24/7 containment.
 
@@ -37,6 +39,10 @@ Each stage builds on the last. Each next stage returns ~10× the leverage.
 - **Trust earned over time.** Autonomy compounds with judgment — like a good A-Player on a real team.
 - **Portable, not proprietary.** The AIOS is the layer; the LLM is interchangeable. Plug Claude (recommended), Gemini, or your best model.
 
+## Open core: the line between free and paid
+
+**The core is always free. You pay only for what we run for you: servers, people, or verification.** Everything that runs on your machine (the framework, the App, Glass, the agents, the rituals and your vault) is open source under the GPL and stays free. What AIOS hosts, syncs or administers for a team, the people who help you implement it, and the verification of agent actions are the paid services built on top.
+
 ## What's inside
 
 Three things you install, two things you read, and one that quietly sets the rules.
@@ -46,7 +52,7 @@ Three things you install, two things you read, and one that quietly sets the rul
 - **[`aios`](https://github.com/The-AIOS/aios)** — **the framework, and the place to start.** A vault plus the machinery around it: 20+ slash commands for the daily rituals, 30+ task agents across six bundles, 40+ skills, bundled MCP servers, and hooks that give every session a real clock and a live context readout. Path-agnostic install at `~/aios/`. GPL-2.0-or-later.
   - **[`company-template`](https://github.com/The-AIOS/company-template)** — the venture-context scaffold, forked via `/aios:company --create`. One mount, and every teammate's Claude session inherits the same context layer: who the company is, what it sells, how it decides. Optionally carries company-specific agents, plugins, hooks, MCPs, skills and templates.
 - **[`aios-glass`](https://github.com/The-AIOS/aios-glass)** — **for people who work in an editor.** A glass layer over the framework for [Google Antigravity](https://antigravity.google) or any VS Code-compatible editor: rituals as buttons, agents you can browse and `spawn`, `/company` and `/collaborate` spaces, vault navigation. The terminal becomes optional rather than required. On [Open VSX](https://open-vsx.org/extension/the-aios/aios-glass); pairs with [Foam](https://github.com/foambubble/foam) for `[[wikilink]]` navigation. GPL-2.0-or-later.
-- **[`aios-app`](https://github.com/The-AIOS/aios-app)** — **for everyone.** The same control plane as a standalone Mac app: Home, a live panel, real `claude` sessions in real terminals, a vault explorer with git markers, viewers for markdown/HTML/PDF — and a four-step setup that takes a machine with nothing installed to a working AIOS without opening a shell. A Developer-ID-signed, notarized **[`.dmg`](https://github.com/The-AIOS/aios-app/releases/latest)** with signature-verified auto-update. GPL-2.0-or-later.
+- **[`aios-app`](https://github.com/The-AIOS/aios-app)** — **for everyone.** The same control plane as a standalone desktop app for macOS, Windows and Linux: Home, a live panel, real `claude` sessions in real terminals, a vault explorer with git markers, viewers for markdown/HTML/PDF — and a four-step setup that takes a machine with nothing installed to a working AIOS without opening a shell. **[Download it](https://github.com/The-AIOS/aios-app/releases/latest)**: signed and notarized on Mac, with signature-verified auto-update. GPL-2.0-or-later.
 
 *Glass, not engine* holds across both surfaces: they run the real `claude` CLI against your real vault, surfacing and triggering what the framework already does — never reimplementing it. And app-only is a first-class topology, not a lesser one: no editor required.
 
@@ -63,5 +69,5 @@ CI on the framework runs a multi-job validation gate on every PR — repo struct
 
 ---
 
-_**Amplify yourself and your team — with AI co-workers.**_
+_**Giving everyone a team of agents.**_
 *Not zero people. Compounded people.*
